@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+#main {
+    display: grid;
+    grid-template-areas:
+    "title"
+    "img"
+    "tribute-info"
+    ;
+}
+
+#title {
+    grid-area: title;
+    justify-self: center;
+    font-family: fantasy;
+    margin-top: 25px;
+    font-size: 50px;
+}
+
+#img-div {
+    grid-area: img;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+#image {
+    max-width: fit-content;
+    border-radius: 25px;
+    box-shadow: 6px 6px 12px ;
+}
+
+#img-div :nth-child(2) {
+    color: rgb(111, 108, 108);
+    margin-top: 15px;
+    text-align: center;
+}
+
+#tribute-info {
+    grid-area: tribute-info;
+    max-width: 500px;
+    margin: 25px auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+p {
+    margin-top: 40px;
+}
+
+a {
+    font-size: 32px;
+    margin-top: 25px;
+}
+
+
+
