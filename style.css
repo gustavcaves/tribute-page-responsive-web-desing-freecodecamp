@@ -1,3 +1,13 @@
+@font-face {
+    font-family: FontTitulo1;
+    src: url(./Island_Moments/IslandMoments-Regular.ttf);
+}
+
+@font-face {
+    font-family: Texto1;
+    src: url(./Comfortaa/Comfortaa-VariableFont_wght.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -19,9 +29,9 @@ body {
 #title {
     grid-area: title;
     justify-self: center;
-    font-family: fantasy;
+    font-family: FontTitulo1;
     margin-top: 25px;
-    font-size: 50px;
+    font-size: 100px;
 }
 
 #img-div {
@@ -54,7 +64,7 @@ body {
     flex-direction: column;
     align-self: center;
     justify-content: center;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family: Texto1;
 }
 
 p {
